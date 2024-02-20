@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Usl1</class>
+ <widget class="QWidget" name="Usl1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>506</width>
+    <height>331</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Пользователь вводит количество пар в группе после чего
+появляется StringGrid с количеством строк на единицу большим,
+чем введенное число, куда вводятся номера пары и число
+отсутствующих на каждой паре. Определить на какой паре было
+наибольшее число отсутствующих. Вычислить число
+присутствующих для каждой группы, при условии, что в каждой
+группе учится 25 человек. Вывести максимальное число
+отсутствующих. Создать заголовки для каждого столбца при
+запуске формы. Проверьте, у всех ли пар число отсутствующих
+одинаковое. Предусмотреть невозможность редактирования
+столбца в котором происходят расчеты. Результат вычислений
+вывести в Memo. При нажатии кнопки «Сохранить», содержимое
+Memo сохраняется в текстовый файл.</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
